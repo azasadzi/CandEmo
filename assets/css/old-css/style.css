@@ -1,0 +1,73 @@
+body {
+  background-color: #212121;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.logo {
+  width: 200px;
+  padding-top: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 134px 130px 130px 130px;
+}
+
+.ipod-grid {
+  grid-column: 4 / span 2;
+  grid-row: 2;
+}
+
+.app-icon {
+  width: 100px;
+}
+
+.about-grid {
+  grid-column: 5;
+  grid-row: 2;
+}
+
+.products-grid {
+  grid-column: 6;
+  grid-row: 2;
+}
+
+.contact-grid {
+  grid-column: 5;
+  grid-row: 3;
+}
+
+.bonus-grid {
+  grid-column: 6;
+  grid-row: 3;
+}
+
+.app-label {
+  font-weight: normal;
+  color: white;
+  font-family: 'Alegreya SC', serif;
+  font-size: 25px;
+}
+
+.app-icon-hover {
+}
+
+/*Mobile*/
+@media (max-width: 500px) {
+  .apps {
+    grid-template-columns: 1fr;
+  }
+}

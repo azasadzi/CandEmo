@@ -1,0 +1,148 @@
+body {
+  background-color: #212121;
+  color: #fff;
+}
+
+.logo {
+  width: 200px;
+  padding-top: 5px;
+  border-left: 10px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.ipod {
+  background-image: url(../img/home-page/ipod-headphones.png);
+  width: 100%;
+  height: 685px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* .ipod-screen {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+  grid-gap: 30px;
+  padding-right: 110px
+  }*/
+
+.ipod-screen {
+  display: grid;
+  grid-template-columns: 1fr 100px 100px 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  grid-gap: 30px;
+  margin-left: 100px;
+  max-width: 1000px;
+}
+
+.app-icon {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-grid {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.products-grid {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.contact-grid {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.music-grid {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.app-label {
+  font-weight: normal;
+  color: white;
+  font-family: 'Alegreya SC', serif;
+  font-size: 22px;
+}
+
+.label-link {
+  text-decoration: none;
+}
+
+.pink-lollipop {
+  width: 300px;
+  margin-left: 900px;
+  margin-bottom: 700px;
+  position: absolute;
+}
+
+.green-lollipop {
+  width: 200px;
+  margin-bottom: 400px;
+  position: absolute;
+}
+
+@media (max-width: 425px) {
+  .logo {
+    width: 150px;
+    padding-top: 5px;
+    border-left: 10px;
+  }
+
+  .ipod {
+    background-image: url(../img/home-page/ipod-no-headphones.png);
+    width: 100%;
+    height: 710px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 0px;
+  }
+
+  .ipod-screen {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 30px;
+    padding-top: 110px;
+    margin-right: 120px;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+
+  .app-icon {
+    width: 100px;
+    size: contain;
+  }
+
+  .about-grid {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .products-grid {
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  .contact-grid {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .music-grid {
+    grid-column: 4;
+    grid-row: 2;
+  }
+}

@@ -1,0 +1,87 @@
+body {
+  background-color: #212121;
+}
+
+.logo {
+  width: 200px;
+  padding-top: 5px;
+}
+
+.content-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header{
+  font-weight: normal;
+  font-size: 30px;
+  color: white;
+  font-family: 'Alegreya SC', serif;
+  padding-left: 10px;
+}
+
+.header-grid{
+  grid-column: 6/ span 3;
+  grid-row: 4;
+}
+
+.contact {
+  font-family: 'Alegreya SC', serif;
+}
+
+.contact-email {
+  border: 1px solid #00f0b5;
+  border-radius: 15px;
+  background-color: #00f0b5;
+  border-width: 50px;
+}
+
+.email-font {
+  color: #5e239d;
+}
+
+/* Why won't this class get applied to the element??? It's like the first class overrides it or something*/
+.email-grid {
+  grid-column: 2/ span 3;
+  grid-row: 4;
+}
+
+.contact-phone {
+  border: 1px solid #5e239d;
+  border-radius: 15px;
+  background-color: #5e239d;
+  border-width: 50px;
+}
+
+.phone-font {
+  color: white;
+}
+
+.phone-grid {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.contact-social {
+  border: 1px solid #e855f5;
+  border-radius: 15px;
+  background-color: #e855f5;
+  border-width: 50px;
+}
+
+.social-font {
+  color: white;
+}
+
+.social-grid {
+  grid-column: 9/ span 3;
+  grid-row: 4;
+}
+
+/*Mobile*/
+@media (max-width: 500px) {
+  .apps {
+    grid-template-columns: 1fr;
+  }
+}

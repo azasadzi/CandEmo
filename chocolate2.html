@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/product.css">
+  <title>CandEmo Chocolate</title>
+</head>
+<body class="mainframe">
+  <div class="topnav" id="mytopnav">
+    <div class="logo"><img class="logo" src="./assets/img/logo-2.png" alt=" CandEmo logo"></div>
+    <a href="index.html">Home</a>
+    <a href="#user"><i class="fa fa-user" aria-hidden="true"></i></a>
+    <div class="dropdown">
+      <button class="dropbtn"> <a href="#filter"><i class="fa fa-filter" aria-hidden="true"></i></a></button>
+      <div class="dropdown-content">
+        <a href="#">Filter by Album</a>
+        <a href="#">Price: High to Low</a>
+        <a href="#">Price: Low to High</a>
+      </div>
+    </div>
+    <a href="#spotify"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+    <a href="#searchs"><i class="fa fa-search" aria-hidden="true"></i></a>
+    <a href="javascript:void(0);" style="font-size: 15px" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById('mytopnav');
+      if (x.className === 'topnav') {
+        x.className += ' responsive';
+      } else {
+        x.className = 'topnav';
+      }
+    }
+  </script>
+
+  <div class="scrollmenu">
+    <a href="./hard-candy2.html">Hard Candy</a>
+    <a href="./soft-candy2.html">Soft Candy</a>
+    <a href="./chocolate2.html" class="active">Chocolate</a>
+    <a href="./speciality2.html">Specialty</a>
+  </div>
+
+  <div class="products">
+    <div class="product">
+      <img src="./assets/img/product-pages/cupe-without-the-e.jpeg" alt="Product Image: Cupe Without the E" class="product-image">
+      <h3 class="product-title">
+        <span>Cupe Without the E Peanutbutter Cups</span>
+        <span>$4.20</span>
+      </h3>
+    </div>
+    <div class="product">
+      <img src="./assets/img/product-pages/the-m-and-m-middle.jpeg" alt="Product Image: The M&Middle, black M&Ms" class="product-image">
+      <h3 class="product-title">
+        <span>The M&Middle Chocolates</span>
+        <span>$4.20</span>
+      </h3>
+    </div>
+    <div class="product">
+      <img src="./assets/img/product-pages/im-nut-okay.jpg " alt="Product Image: I'm Nut Ok, nut filled chocolate spheres" class="product-image">
+      <h3 class="product-title">
+        <span>I'm Nut Ok Chocolate Covered Almonds</span>
+        <span>$4.20</span>
+      </h3>
+    </div>
+    <div class="product">
+      <img src="./assets/img/product-pages/rose-for-helena.jpeg " alt="Product Image: Rose for Helena, rose-shaped milk chocolate" class="product-image">
+      <h3 class="product-title">
+        <span>Chocolate Rose for Helena</span>
+        <span>$4.20</span>
+      </h3>
+    </div>
+    <div class="product">
+      <img src="./assets/img/product-pages/that-feel-good-dark.jpeg " alt="Product Image: That Feel Good Dark, dark chocolate bar" class="product-image">
+      <h3 class="product-title">
+        <span>That Feel Good Dark Chocolate</span>
+        <span>$4.20</span>
+      </h3>
+    </div>
+  </div>
+</body>
+</html>

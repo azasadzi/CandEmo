@@ -1,6 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5D83E3Y7DB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5D83E3Y7DB');
+  </script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WP6V29X');
+  </script>
+  <!-- End Google Tag Manager -->
+  <script src="https://www.googleoptimize.com/optimize.js?id=OPT-5Q44823"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -8,7 +39,11 @@
   <link rel="stylesheet" href="./assets/css/product.css">
   <title>CandEmo Chocolate</title>
 </head>
+
 <body class="mainframe">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP6V29X" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div class="topnav" id="mytopnav">
     <div class="logo"><img class="logo" src="./assets/img/logo-2.png" alt=" CandEmo logo"></div>
     <a href="index.html">Home</a>
@@ -44,41 +79,42 @@
   </div>
 
   <div class="products">
-    <div class="product">
+    <div class="product" onclick="infoBox()">
       <img src="./assets/img/product-pages/cupe-without-the-e.jpeg" alt="Product Image: Cupe Without the E" class="product-image">
       <h3 class="product-title">
-        <span>Cupe Without the E Peanutbutter Cups</span>
-        <span>$4.20</span>
+        <span>Cupe Without the E Peanutbutter Cups <br><a class="paragraph-link" href="buy.html">Buy</a></span></span>
+        <span>$</span>
       </h3>
     </div>
-    <div class="product">
+    <div class="product" onclick="infoBox()">
       <img src="./assets/img/product-pages/the-m-and-m-middle.jpeg" alt="Product Image: The M&Middle, black M&Ms" class="product-image">
       <h3 class="product-title">
-        <span>The M&Middle Chocolates</span>
-        <span>$4.20</span>
+        <span>The M&Middle Chocolates <br><a class="paragraph-link" href="buy.html">Buy</a></span></span>
+        <span>$</span>
       </h3>
     </div>
-    <div class="product">
+    <div class="product" onclick="infoBox()">
       <img src="./assets/img/product-pages/im-nut-okay.jpg " alt="Product Image: I'm Nut Ok, nut filled chocolate spheres" class="product-image">
       <h3 class="product-title">
-        <span>I'm Nut Ok Chocolate Covered Almonds</span>
-        <span>$4.20</span>
+        <span>I'm Nut Ok Chocolate Covered Almonds <br><a class="paragraph-link" href="buy.html">Buy</a></span></span>
+        <span>$</span>
       </h3>
     </div>
-    <div class="product">
+    <div class="product" onclick="infoBox()">
       <img src="./assets/img/product-pages/rose-for-helena.jpeg " alt="Product Image: Rose for Helena, rose-shaped milk chocolate" class="product-image">
       <h3 class="product-title">
-        <span>Chocolate Rose for Helena</span>
-        <span>$4.20</span>
+        <span>Chocolate Rose for Helena <br><a class="paragraph-link" href="buy.html">Buy</a></span></span>
+        <span>$</span>
       </h3>
     </div>
-    <div class="product">
+    <div class="product" onclick="infoBox()">
       <img src="./assets/img/product-pages/that-feel-good-dark.jpeg " alt="Product Image: That Feel Good Dark, dark chocolate bar" class="product-image">
       <h3 class="product-title">
-        <span>That Feel Good Dark Chocolate</span>
-        <span>$4.20</span>
+        <span>That Feel Good Dark Chocolate <br><a class="paragraph-link" href="buy.html">Buy</a></span></span>
+        <span>$</span>
       </h3>
     </div>
   </div>
+  <script src="./assets/main.js"></script>
 </body>
 </html>

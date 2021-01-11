@@ -1,9 +1,11 @@
 var infoBox = () => {
-    alert("Product info coming soon!");
-}
+  alert(
+    'Product info coming soon!  Visit the About page for more info and to send feedback.'
+  );
+};
 
 var infoBox2 = () => {
-    console.log("alkbfejk")
+  console.log('alkbfejk');
   const newDiv = document.createElement('div');
   newDiv.id = 'info-box';
   newDiv.style.backgroundColor = 'white';

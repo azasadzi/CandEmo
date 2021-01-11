@@ -1,0 +1,45 @@
+body {
+  background-color: #212121;
+}
+
+.logo {
+  width: 130px;
+  height: 115px;
+  display: block;
+
+  margin-left: initial;
+}
+
+
+.navigation {
+  font-size: 20px;
+  color: #00f0b5;
+  font-family: 'Alegreya SC', serif;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.label-link {
+  text-decoration: none;
+}
+
+.header {
+  font-weight: normal;
+  font-size: 40px;
+  color: white;
+  font-family: 'Alegreya SC', serif;
+  text-align: center;
+  margin-top: 0;
+}
+
+.paragraph-link {
+  color:pink;
+}
+
+.paragraph-font {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color:white;
+}
